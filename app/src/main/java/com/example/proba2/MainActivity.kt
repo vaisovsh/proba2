@@ -2,6 +2,8 @@ package com.example.proba2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,6 +12,9 @@ class MainActivity : AppCompatActivity() {
 
 
 //    hello word
+
+        val a = 5
+        Log.d("TTT", "onCreate:  proba2")
 
     }
 }
